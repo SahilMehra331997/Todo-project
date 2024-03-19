@@ -1,0 +1,41 @@
+
+.my-3 {
+ 
+    margin-top: 20px;
+    border-bottom: solid 2px black;
+    display: flex;
+    border-bottom: 1px solid black;
+    font-weight: 500;
+    align-items:center;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+input{
+  margin-left: 15px;
+}
+
+.container1{
+  margin-left: 15px;
+  display:flex;
+  align-items: center;
+  flex:70%;
+}
+.container1 h3{
+  flex:40%;
+}
+.container1 p{
+  flex:60%;
+}
+.container2{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex:30%;
+}
+
+  .btn{
+    text-align: center;
+    background-color:rgb(249, 66, 66);
+    margin-right: 10px;
+  }
